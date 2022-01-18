@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semáforo</title> <!--NOME DA APLICAÇÃO-->
+    <link rel="stylesheet" href="style.css"> <!--CHAMANDO O ESTILO-->
+</head>
+<body>
+
+    <main> <!--INICIO DO CONTEÚDO-->
+
+        <div>
+    <img src="./img/desligado.png" id='img' >
+    <!--A IMAGEM DO SEMAFORO APAGADO DENTRO DE UMA DIV UNICA-->
+        </div>
+        <div id='buttons'> <!--OS BOTOES ABAIXO DO SEMAFORO DENTRO DE UMA UNICA DIV-->
+            <button id='red' class="button" >Vermelho</button>
+            <button id='yellow' class="button" >Amarelo</button>
+            <button id='green' class="button" >Verde</button>
+            <button name='teste' id='automatic' class="button" >Automático</button>
+        </div> <!--CADA BOTÃO (COR) TEM UMA ID PARA CONECTAR AO JAVASCRIPT-->
+
+    </main> <!--FIM DO CONTEÚDO-->
+
+    <script src="./semaforo.js"></script> <!--CHAMADO ARQUIVO SEMAFORO-->
+</body>
+</html>
