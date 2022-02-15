@@ -1,0 +1,91 @@
+/*div 'container para centralização e fixar do formulário na tela*/
+#container{
+    position:relative;
+    left:37%;
+    top:29%;
+    width:320px;
+    height:270px;
+}
+
+/* Background do formulario */
+fieldset{
+background-color:#e5ee34;    
+width:400px;
+height:800px;
+}
+
+/* formatação do texto da legenda Formulario*/
+legend
+{
+  font-style:bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:x-large;
+  color: rgb(1, 46, 247);
+}
+
+#formulario label{
+  position:absolute;
+  left:19px;
+  margin-right:5px;
+}
+/* Classes de cada input do fomulario */
+#formulario input.campo_nome{
+background-color:#cff1f3;
+  left:95px;
+  top:23px;
+  width:225px;
+}
+#formulario input.campo_pesquisar{
+background-color:#cff1f3;
+left:95px;
+top:23px;
+width:225px;
+}
+
+    #formulario input.campo_sobrenome{
+    background-color:#cff1f3;
+    left:95px;
+    top:23px;
+    width:225px;
+}
+#formulario input.campo_idade{
+background-color:#cff1f3;
+left:95px;
+top:23px;
+width:225px;
+}
+
+#formulario input.campo_url{
+    background-color:#cff1f3;
+    left:95px;
+    top:23px;
+    width:225px;
+}
+#formulario input.campo_tel{
+background-color:#cff1f3;
+left:95px;
+top:23px;
+width:225px;
+}
+#formulario input.campo_senha{
+    background-color:#cff1f3;
+    left:95px;
+    top:23px;
+    width:225px;
+}
+#formulario input.campo_email{
+background-color:#cff1f3;
+left:95px;
+margin-top:2px;
+width:225px;
+}
+
+/* Área de texto do campo de mensagem */
+#formulario textarea.msg{
+  position:absolute;
+  background-color:#cff1f3;
+}
+
+
+
+
