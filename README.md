@@ -1,2 +1,2 @@
-# Treinamento JavaScript
-Mini projetos e treinamentos em JavaScript PURO + Php
+# Treinamento JavaScript & PHP
+Mini projetos e treinamentos 
